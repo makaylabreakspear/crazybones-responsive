@@ -1,0 +1,174 @@
+/*******************stuff*******************/
+:root{
+    --dark-brown: #45474B;
+    --backgrounds: white;
+    --main-green: #61764B;
+    --Bright: #FCC2FC;
+}
+@font-face {
+    font-family:"main";
+    src: url(/fonts/bella-font/Bella-yw64Z.ttf);
+}
+@font-face {
+    font-family:"body";
+    src: url(/fonts/bella-font/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 2.1875rem 2.1875rem;
+    padding: 0;
+}
+/*******************NAV*******************/
+.logo img{
+    width: 20%;
+    overflow: hidden;
+}
+.logo{
+    justify-content: start;
+}
+#menu{
+    margin-top: 3.5rem;
+    list-style-type: none;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: end;
+    font-family: "main";
+}
+#menu a{
+    text-decoration: none;
+    color: var(--dark-brown);
+    padding: 2.25rem .125rem;
+    font-family: "main";
+    gap: 1.25rem;
+    justify-content: end;
+    align-items: center;
+}
+nav{
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-item-align: baseline;
+    overflow: hidden;
+    
+}
+#menu-toggle{
+    display: none;
+    background-color: var(--main-green);
+    color: var(--light-beige);
+    border: none;
+    font-family: "main";
+}
+#menu.active{
+display: flex;
+}
+/*******************HERO*******************/
+.hero{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    background-image: url(/img/hero.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 700px;
+    overflow: hidden;
+    margin-top: 0;
+}
+.hero h1{
+  margin-left: 9rem;
+  font-size:2.375rem ;
+  font-family: "main";
+}
+.hero p{
+    padding-right: 35rem;
+    text-align: center;
+    margin-left: 1.25rem;
+    margin-top: 3.125rem;
+    font-family:"body" ;
+}
+/*******************PRODUCTS*******************/
+#products{
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.products{
+   align-items: end;
+   justify-content: end;
+}
+
+.products-item2{
+    height: 37.5rem;
+    width: 400rem;
+    margin-top: 30px;
+}
+#alkaline{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/alkaline-background.png);
+    background-position: center;
+   height: 26.5rem;
+   width: 35.25rem;
+   justify-content: end;
+   margin-top: 1.25rem;
+}
+#sugo{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/sugo-background.png);
+    background-position: center;
+    height: 26.5rem;
+    width: 35.25rem;
+    justify-content: end;
+    margin-top: 1.25rem;
+}
+#alkaline h3{
+    font-family: "main";
+    margin-left: .8125rem;
+}
+#sugo h3{
+    font-family: "main";
+    margin-left: .8125rem;
+}
+#sugo p{
+    font-family: "body";
+    margin-left: .8125rem;
+}
+#alkaline p{
+    font-family: "body";
+    margin-left: .8125rem;
+}
+/*******************Feet*******************/
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 4.375rem;
+    /*overflow: hidden;*/
+    overflow: hidden;
+}
+#foot{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--dark-brown);
+    height: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+    margin-right: 15px;
+    align-items: baseline;
+    margin-top: 1.875rem;
+}
+
+#foot a{
+    list-style-type: none;
+    text-decoration: var(--dark-brown);
+    font-family: "main";
+}
+.logo-foot img{
+  width: 20%;
+  margin-top: -1.25rem;
+}
