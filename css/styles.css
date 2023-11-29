@@ -7,11 +7,11 @@
 }
 @font-face {
     font-family:"main";
-    src: url(./fonts/bella-font/Bella-yw64Z.ttf);
+    src: url(../fonts/bella-font/Bella-yw64Z.ttf);
 }
 @font-face {
     font-family:"body";
-    src: url(./fonts/bella-font/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+    src: url(../fonts/bella-font/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
 html{
     scroll-behavior: smooth;
@@ -68,7 +68,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(./img/hero.png);
+    background-image: url(../img/hero.png);
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ display: flex;
     background-color: var(--beige);
 }
 .items1{
-   background-image: url(./img/halloween.png);
+   background-image: url(../img/halloween.png);
    background-position: center;
    background-size: cover;
    background-repeat: none;
@@ -120,7 +120,7 @@ display: flex;
 }
 
 .items2{
-    background-image: url(./img/snuggles.png);
+    background-image: url(../img/snuggles.png);
     background-position: center;
    background-size: cover;
    background-repeat: none;
@@ -128,7 +128,7 @@ display: flex;
   
  }
  .items3{
-    background-image: url(./img/barb.png);
+    background-image: url(../img/barb.png);
     background-position: center;
    background-size: cover;
    background-repeat: none;
@@ -205,7 +205,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(./img/Untitled_Artwork\ 3.png);
+    background-image: url(../img/Untitled_Artwork\ 3.png);
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
